@@ -1,0 +1,23 @@
+p {
+    color: black;
+    font-size: 150%;
+}
+
+
+a {
+    color: rgb(54, 10, 210);
+    font-size: 150%;
+    cursor: pointer;
+}
+
+a:link {
+    color: rgb(54, 10, 210);;
+}
+
+a:hover {
+    color: rgb(3, 19, 70);
+}
+
+a:active {
+    color: rgb(104, 3, 3);;
+}
