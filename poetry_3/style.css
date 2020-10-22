@@ -1,0 +1,67 @@
+.poetry {
+    background-color: #f0d2ad;
+    text-align: center;
+    color: #4D8C3B;
+    left: 50%;
+    top: 50%;
+    width: 600px;
+    height: 400px;   
+}
+
+.box {
+    background-color: #f0d2ad;
+    left: 50%;
+    top: 50%;
+    text-align: top;
+    position: absolute;
+    color: #4D8C3B;
+    border: 2px solid blue ;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    background-color: #fae6d0;
+    left: 50%;
+    top: 50%;
+    text-align: top;
+    position: absolute;
+    color: #4D8C3B;
+    
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 480px; 
+    
+}
+
+
+
+.poetry h1 {
+
+    font-size: 250%;
+
+}
+
+.poetry h2 {
+    font-size: 90%;
+    
+}
+
+.poetry p {
+    font-size: 18px;
+    text-indent:5%;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
