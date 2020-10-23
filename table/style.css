@@ -1,0 +1,25 @@
+thead tr {
+    background-color: #516676 ;   
+}
+
+th {
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+/* get rid of the space between each td*/
+table {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #D7DDE3;
+}
+
+td {
+    font-size: 70%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #516676;
+}
