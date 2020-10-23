@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <video class="color" id="myVideo" width="320" height="240">
+        <source id="mp4_src" src="web_color.mp4" type="video/mp4">
+    </video>
+    <button class="btn_play" onclick="playVid()" type="button">Play</button>
+    <button class="btn_stop" onclick="pauseVid()" type="button">Pause</button>
+    <script>
+    var x = document.getElementById("myVideo");
+
+    function playVid(){
+        x.play();
+    }
+    function pauseVid(){
+        x.pause();
+    }
+    </script>
+
+    <img src="sushi.jpg" alt="sushi" width="500px" height="600px">
+    
+</body>
+</html>
