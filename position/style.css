@@ -1,0 +1,117 @@
+header {
+    background-color: rgb(189, 219, 238);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    outline: black solid 2px;
+    margin-bottom: 50px;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: 700;
+    font-size: 200%;  
+    
+}
+
+
+.blogger {
+    background-color: rgb(199, 192, 241);
+    width: 30%;
+    height: 300px;
+    margin: 20px 10px;
+    display: inline-block;
+    outline: black solid 2px; 
+    
+}
+
+
+.banner {
+    background-color: rgb(176, 200, 202);
+    width: 60%;
+    height: 300px;
+    margin: 20px 10px;
+    display: inline-block;
+    outline: black solid 2px;
+    
+}
+
+.articlelist {
+    background-color: rgb(199, 192, 241);
+    width: 30%;
+    height: 300px;
+    margin: 5px 10px;
+    display: inline-block;
+    position: relative;
+    outline: lightsalmon 2px solid;
+    bottom: 255px ;
+    outline: black solid 2px;
+    
+}
+
+.group {
+    background-color: rgb(240, 227, 198);
+    width: 60%;
+    height: 300px;
+    margin: 30px 10px 10px;
+    display: inline-block;
+    position: relative;
+    outline: lightsalmon 2px solid;
+    top: 25px;
+    outline: black solid 2px;
+}
+
+.info1 {
+    width: 35%;
+    height: 100px;
+    background-color: navajowhite;
+    display: inline-block;
+    margin: 1%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    outline: black solid 2px;
+    line-height: 100px;  
+}
+
+.info2 {
+    width: 35%;
+    height: 100px;
+    background-color: navajowhite;
+    display: inline-block;
+    margin: 1%;
+    position: absolute;
+    top: 15%;
+    left: 50%; 
+    outline: black solid 2px;
+    line-height: 100px; 
+}
+
+.info3 {
+    width: 35%;
+    height: 100px;
+    background-color: navajowhite;
+    display: inline-block;
+    margin: 1%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    outline: black solid 2px;
+    line-height: 100px; 
+}
+
+.info4 {
+    width: 35%;
+    height: 100px;
+    background-color: navajowhite;
+    display: inline-block;
+    margin: 1%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    outline: black solid 2px;
+    line-height: 100px; 
+}
