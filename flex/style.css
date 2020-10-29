@@ -1,0 +1,133 @@
+/* display: flex / inline-flex
+   flex-direction:row /column
+   flex-basis: <length>
+   justify-content:flex-start/flex-end/center
+   align-self: lex-start/flex-end/center
+   align-items: lex-start/flex-end/center
+   align-content: lex-start/flex-end/center
+   flex-grow:<number>
+   flex-shrink:<number>
+   flex:<integer>
+   order: <integer> */
+
+
+* {
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    background-color: black;
+
+    /* want to organize the item inside the website */
+    display: flex;
+    /* jump to next line once horizontal full */
+    flex-wrap: wrap;
+    /* from left to right */
+    flex-direction: row;
+    /* create space between items */
+    justify-content: space-around;
+    /* create height for each item inside the flex */
+    
+}
+
+.item {
+    background-color: #D7DDE3;
+    /* create percentage width for item */
+    flex-basis: 15% ;
+    height: 50px;
+    flex-grow: 0;
+}
+
+.item2 {
+    background-color: #D7DDE3;
+    flex-basis: 50% ;
+    height: 50px;
+    flex-grow: 1;
+}
+
+.item3 {
+    background-color: #D7DDE3;
+    flex-basis: 15% ;
+    height: 50px;
+    flex-grow: 2;
+}
+/* grey background */
+
+.grey_bg {
+    background-color: lightgray;
+    flex-basis: 100%;
+    height: 400px;
+    position: relative; 
+    font-size: 250%;
+}
+
+.item4 {
+    background-color:lightblue;
+    width: 60%;
+    height: 350px;
+    left: 10px;
+    position: absolute;
+    text-indent: 200px;
+}
+
+.grey_bg p{
+    bottom: 150px;
+    position: absolute;
+}
+
+.item5 {
+    background-color: rgb(221, 206, 248);
+    width: 25%;
+    height: 350px;
+    right: 10px;
+    position: absolute;  
+}
+
+.item6 {
+    background-color: #D7DDE3;
+    flex-basis: 20% ;
+    height: 50px;
+    flex-grow: 5;
+}
+
+.item7 {
+    background-color: #D7DDE3;
+    flex-basis: 20% ;
+    height: 50px;
+    flex-grow: 6;
+}
+
+.item8 {
+    background-color: #D7DDE3;
+    flex-basis: 20% ;
+    height: 50px;
+    flex-grow: 7;
+}
+.item9 {
+    background-color: #D7DDE3;
+    flex-basis: 20% ;
+    height: 50px;
+    flex-grow: 8;
+}
+
+/* flex: 0 1 100% 
+   the main way to use grow shrink basis together in one line */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
