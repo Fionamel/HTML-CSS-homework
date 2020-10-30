@@ -1,0 +1,129 @@
+/* .container {
+    display: grid; 块级元素
+    display: inline-grid; 行内块级元素
+} 
+
+* 注意，设为网格布局以后，容器子元素（项目）的float、display: inline-block、display: table-cell、vertical-align和column-*等设置都将失效。
+
+grid-template-columns: auto  auto auto ; 每一行的列宽 / repeat(3, auto);
+grid-template-rows : 25% 25% 25% 25% ; 每一行的行高 / repeat (4, 25%);
+grid-template-columns: repeat(auto-fill, 100px); 自动填充100px列宽的单元格
+grid-template-columns: 1fr 2fr 1fr; 两列的宽度分别为 1fr 和 2fr，就表示后者是前者的两倍
+minmax(100px, 1fr); 表示列宽不小于 100px，不大于 1fr
+
+column-gap & row-gap & grid-gap 行间距 & 列间距 & 两者的合并
+
+grid-template-areas:  属性用于定义区域
+"a b c
+ d e f
+ g h i"
+
+ grid-template-areas: 9个单元格合并分成 a、b、c、d 四个区域。
+ "a a a
+  b b b 
+  c c c "
+
+grid-auto-flow: row; "先行后列" 
+grid-auto-flow: column; "先列后行"
+
+justify-items & align-items & place-items 单元格内容的水平位置 & 单元格内容的垂直位置
+justify-items: start | end | center | stretch;
+start：对齐单元格的起始边缘。
+end：对齐单元格的结束边缘。
+center：单元格内部居中。
+stretch：拉伸，占满单元格的整个宽度（默认值）。
+
+justify-content & align-content & place-content 整个内容区域在容器里面的位置
+justify-content : start | end | center | stretch;
+
+个别项目的位置:
+
+grid-column-start属性：1; 开始左边框所在的垂直网格线
+grid-column-end属性：3; 结束右边框所在的垂直网格线
+grid-row-start属性：1; 开始上边框所在的水平网格线
+grid-row-end属性：4; 结束下边框所在的水平网格线
+
+属性指定项目放在哪一个区域 ：grid-area 
+.grid-item-1 {
+  grid-area: d;
+}
+
+justify-self & align-self & place-self
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.main {
+    background-color: lightgray;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 20% 75%; 
+    grid-template-rows : 10% 40% 40%; 
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.a {
+    background-color: lightskyblue;
+    grid-column-start: 1; 
+    grid-column-end: 3; 
+    grid-row-start: 1; 
+    grid-row-end: 2; 
+    border: rgb(87, 85, 85) solid 1px;
+    align-content: center;
+    display: grid;
+
+}
+
+
+.b {
+    background-color: rgb(191, 182, 224);
+    border: rgb(87, 85, 85) solid 1px;
+    align-content: center;
+    display: grid;
+}
+
+.c {
+    background-color: rgb(182, 216, 224);
+    border: rgb(87, 85, 85) solid 1px;
+    align-content: center;
+    display: grid;
+}
+
+
+.d {
+    background-color: rgb(191, 182, 224);
+    border: rgb(87, 85, 85) solid 1px;
+    align-content: center;
+    display: grid;
+}
+
+.e {
+    background-color: rgb(238, 234, 183);
+    border: rgb(87, 85, 85) solid 1px;
+    align-content: center;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 45% 45%; 
+    grid-template-rows : 45% 45% ; 
+    column-gap: 15px;
+    row-gap: 5px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.item {
+    background-color: orange;
+    display: grid;
+    align-content: center;
+    border: rgb(87, 85, 85) solid 1px;
+}    
